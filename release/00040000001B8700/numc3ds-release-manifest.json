@@ -1,0 +1,284 @@
+{
+  "schema": 1,
+  "patch_owner": "Luma LayeredFS and code patching only",
+  "target_title_id": "00040000001B8700",
+  "update_title_id": "0004000E001B8700",
+  "input_code_sha256": "7E58F876A531428B484A4A71BDCA364413CE86C6BB63250CA375605E41F260F0",
+  "files": [
+    {
+      "path": "code.ips",
+      "size": 28079,
+      "sha256": "4FA86225721330386F0EF181A69E04B8506BFBF8D0CEBD90F25A0BBDFDA80FF4"
+    },
+    {
+      "path": "exheader.bin",
+      "size": 1024,
+      "sha256": "D46BEC6B7CB1AA19A69658E46A9F9815CA2E529DEE883B78B59C54694E9CCC4B"
+    },
+    {
+      "path": "NUMC3DS-CHANGELOG.txt",
+      "size": 3011,
+      "sha256": "2DA236591B8898252FBB8E623924DF18D7B6C7F3F9603F06C9C4C60D708F0265"
+    },
+    {
+      "path": "romfs/commands/standard.bjson",
+      "size": 60410,
+      "sha256": "B2F36DE418C1259EBB8CBD77DF1DEDE9EF2B3C0C368B0E76581E2EA52BC9A04F"
+    },
+    {
+      "path": "romfs/commands/standard.json",
+      "size": 70911,
+      "sha256": "668116622847EADD0432E016C6D2C77CC144677630000E5C5948FDCDB9079519"
+    },
+    {
+      "path": "romfs/images/gui/spritesheet.3dst",
+      "size": 262176,
+      "sha256": "32B7FA758ABDDE6F076DA73678915885CD21F0098ED5B4685282F4A62A1114F0"
+    },
+    {
+      "path": "romfs/loc/de_DE-pocket.blang",
+      "size": 116369,
+      "sha256": "35647C902492542ABBB7CFDC43C3530A6EF22F98392983A0CAC4ACCB173220B8"
+    },
+    {
+      "path": "romfs/loc/en_GB-pocket.blang",
+      "size": 105085,
+      "sha256": "8E2E93B4E7FC821C4808928EBA2FDB90843FEF54CBB8208B68BE1C9D689BA172"
+    },
+    {
+      "path": "romfs/loc/en_US-pocket.blang",
+      "size": 105051,
+      "sha256": "8F05F0D27BCBD2A30F5CE65B1297C834F4AFE3F09BAF1D477649288CC5BBF215"
+    },
+    {
+      "path": "romfs/loc/es_ES-pocket.blang",
+      "size": 121933,
+      "sha256": "DF617B21D3CDC797BA7C030197284BDE31326225B803A5E67AE7AB7E058E1841"
+    },
+    {
+      "path": "romfs/loc/es_MX-pocket.blang",
+      "size": 120142,
+      "sha256": "1E14C590FBBD6982AC35CAF1D9AACFF8BBAD2BE0F1E56AAE72B3AD8ED511EC29"
+    },
+    {
+      "path": "romfs/loc/fr_CA-pocket.blang",
+      "size": 123481,
+      "sha256": "A04FC8C135000DDD37080BC88B5A761263A212FBF066FF1C6D907ED5DEA2D356"
+    },
+    {
+      "path": "romfs/loc/fr_FR-pocket.blang",
+      "size": 121480,
+      "sha256": "65D56A03BD3377539B00D0AA32B288B28E55D9F19487C0539EC62A2D85B17405"
+    },
+    {
+      "path": "romfs/loc/it_IT-pocket.blang",
+      "size": 120918,
+      "sha256": "73607B3862D32D905DEB6C515E5FE965FDFCA977BF84CDE407503A09DAE59CE7"
+    },
+    {
+      "path": "romfs/loc/ja_JP-pocket.blang",
+      "size": 142157,
+      "sha256": "8C5D5BCDAA214B23B61E7677218CF13762B9D004DD6F0D0027494AB5A123ED8B"
+    },
+    {
+      "path": "romfs/loc/ko_KR-pocket.blang",
+      "size": 125495,
+      "sha256": "64B355C42E44E3BC58382E24A8E86EB1BD93B3AA440C8534C38E8C14EA24AF57"
+    },
+    {
+      "path": "romfs/loc/nl_NL-pocket.blang",
+      "size": 113659,
+      "sha256": "9A5E16308AB768B98904C40CCD102A52E2F6C3B4F90CD49079F601625CAEDD84"
+    },
+    {
+      "path": "romfs/loc/pt_BR-pocket.blang",
+      "size": 117763,
+      "sha256": "00833B884228CF6FC3530DEDB328759E023D15DEA243E3E0998B2574B40F7E98"
+    },
+    {
+      "path": "romfs/loc/pt_PT-pocket.blang",
+      "size": 120043,
+      "sha256": "1B84C491B11B0E521E67A78404D8973978CF7F5C3BECFEAF2EA8E55820B6194A"
+    },
+    {
+      "path": "romfs/loc/ru_RU-pocket.blang",
+      "size": 176416,
+      "sha256": "2FD2C38F5FFC1C86D23F8E968698CB0F8D02B1D7EF3767F82BC48BB67669FEA1"
+    },
+    {
+      "path": "romfs/loc/zh_CN-pocket.blang",
+      "size": 102327,
+      "sha256": "11739990F1FD41B0076023AC248FC8C63A178481E60CF67204BA410B94AFB334"
+    },
+    {
+      "path": "romfs/loc/zh_TW-pocket.blang",
+      "size": 102643,
+      "sha256": "3FA9292DE4A03C4908CF6B1B2B1FF6A5A9AE55E41338CB103793E9B2CE715420"
+    },
+    {
+      "path": "romfs/materials/terrain.material",
+      "size": 5277,
+      "sha256": "F2B23CF025633520EF25A5F3A8E6D72CDB1FF98A610705A5E8681A3D870B0BC1"
+    },
+    {
+      "path": "romfs/materials/terrain.material3DS",
+      "size": 5190,
+      "sha256": "68047E91B083CA100BCA963BECB33B11A50444F3C12FC83EFEA7DCAB0BC80A3E"
+    },
+    {
+      "path": "romfs/numc3ds/native.bin",
+      "size": 786432,
+      "sha256": "8757769E9F8F1E7B35B74CC8B36486D4EF16B0AD3E873F098DDF4685B69E6FD3"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/client/materials/terrain.material",
+      "size": 5277,
+      "sha256": "F2B23CF025633520EF25A5F3A8E6D72CDB1FF98A610705A5E8681A3D870B0BC1"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/client/materials/terrain.material3DS",
+      "size": 5190,
+      "sha256": "68047E91B083CA100BCA963BECB33B11A50444F3C12FC83EFEA7DCAB0BC80A3E"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/client/resindex.idx",
+      "size": 13268,
+      "sha256": "2B11D6AE5B2EB76AF9C815874CF799185D7B7334EC3FB2DA0C2CAFA3A6875745"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/client/splashes.json",
+      "size": 9194,
+      "sha256": "EC56D6A62F0F14728E12B6E2E7336BBE5D815C89C5CC10CB088552E74E6D3E72"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/client/textures/gui/command_block_modes.3dst",
+      "size": 8224,
+      "sha256": "2FBCD6D54643395375B0E9AAC53B021C6A8D0B381972C7855C808546199114F2"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/client/textures/gui/spritesheet.3dst",
+      "size": 262176,
+      "sha256": "D6FE0B106E360BD31D9161F4271E43E102B5A901F6A1FFA002C2345917BBDEDF"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/client/textures/textures_list.bjson",
+      "size": 62311,
+      "sha256": "32FF2F24BF5D028C79C5197205E22E3D36A223C3CB7384750FD5A38FA4FBF727"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/client/textures/textures_list.json",
+      "size": 49642,
+      "sha256": "72CF94009F32786ACD6057DDDA826C57F553DDFC6756932365009614410DF96A"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/server/loot_tables/chests/stronghold_corridor.bjson",
+      "size": 3930,
+      "sha256": "D93E39065B0A6EE9238316A9CF679EB07ECDE4B25877B6266195B6526C312680"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/server/loot_tables/chests/stronghold_corridor.json",
+      "size": 3768,
+      "sha256": "53A2F5C4F2FFFA9A17DD89DA83ED5709590E71D62FB247C48A869BE56EC53AD7"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/server/loot_tables/chests/stronghold_crossing.bjson",
+      "size": 2853,
+      "sha256": "B4366E2B5BD6B2921D7EAE7BF8FA5959D3DA08F0487D931853B9612E472DBC48"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/server/loot_tables/chests/stronghold_crossing.json",
+      "size": 2870,
+      "sha256": "242D4A3E0E7E1D2D468347D20C8D744724C0A85DC7AD4ECA2C4D4C0893597C17"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/server/loot_tables/chests/stronghold_library.bjson",
+      "size": 1349,
+      "sha256": "4A9A309CAC0C9D611BFEE7692855EDA51BBFFC85A776F6000F0E1B9277B12024"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/server/loot_tables/chests/stronghold_library.json",
+      "size": 1282,
+      "sha256": "986A9DB8C7C3675518B31F583E10B492788D509194831C8DEBD7F88B21E5C7F5"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/server/trading/cartographer_trades.json",
+      "size": 2359,
+      "sha256": "644561AF3E5181CB650CCD7F68F64EB5A0458569B4679DB6E152B130B96ECD87"
+    },
+    {
+      "path": "romfs/resourcepacks/vanilla/splashes.json",
+      "size": 9194,
+      "sha256": "EC56D6A62F0F14728E12B6E2E7336BBE5D815C89C5CC10CB088552E74E6D3E72"
+    },
+    {
+      "path": "romfs/shaders/3DS/cloud.shbin",
+      "size": 760,
+      "sha256": "BFFCA88961E8B98CAAD7FC1DB19D7BD1AA6C2484D1B604C47FD4751071ECC066"
+    },
+    {
+      "path": "romfs/shaders/3DS/entity_color_based_use_uv_anim.shbin",
+      "size": 936,
+      "sha256": "777A81AF0272998EBA758BDA1B759A29209B8F0016B270FF8F65BF7C2E12A208"
+    },
+    {
+      "path": "romfs/shaders/3DS/entity_colorbased_no_texture.shbin",
+      "size": 876,
+      "sha256": "94EF2E25AF74323C29BD3D047CB1B5A0DE97F857B50CE680F406C1F64C0266F5"
+    },
+    {
+      "path": "romfs/shaders/3DS/entity_item_in_hand.shbin",
+      "size": 1000,
+      "sha256": "9FA2A4D57FC47BC7C00DCF27662A725BBDEE002E97F155AC354E844858373411"
+    },
+    {
+      "path": "romfs/shaders/3DS/entity_overlay.shbin",
+      "size": 948,
+      "sha256": "A57F88D02C39E1D57A15CDE2C8AF702CEA66DF32B5889E0196907D2347B1082B"
+    },
+    {
+      "path": "romfs/shaders/3DS/entity.shbin",
+      "size": 864,
+      "sha256": "DEA4028208E9789E68D7FDBA1446290841B61530B9E50D141F5BAD015B8F0FFE"
+    },
+    {
+      "path": "romfs/shaders/3DS/rain_snow.shbin",
+      "size": 976,
+      "sha256": "BAC7E653EED2C662792E4A1C96084DF40416971D35379F44029723A7556B0629"
+    },
+    {
+      "path": "romfs/shaders/3DS/renderchunk_as_entity.shbin",
+      "size": 748,
+      "sha256": "B0A73C0E19FD6FF8160C18F6B43A0E1F865748449495C9CFAF59FCA87D658DC2"
+    },
+    {
+      "path": "romfs/shaders/3DS/renderchunk_near_water.shbin",
+      "size": 1064,
+      "sha256": "5B6E675EA117EFBA827A08F43493AB7584987798E8688141B0ACEF73377943E5"
+    },
+    {
+      "path": "romfs/shaders/3DS/renderchunk_seasons.shbin",
+      "size": 776,
+      "sha256": "7F2D7AAE81684DCBF6294E3AF3B14A1ECE444AF30EE93B7F768D21247755C67B"
+    },
+    {
+      "path": "romfs/shaders/3DS/renderchunk.shbin",
+      "size": 764,
+      "sha256": "EB1D9AED5AD7F3645DE2D59D30DD002AEADBDA1FBAE48D12E2BAEED9772FFAFC"
+    },
+    {
+      "path": "romfs/shaders/3DS/weather.shbin",
+      "size": 408,
+      "sha256": "54226A0BF7B39F28092A9B694DF35403FB00A98BCF7EB0E0AF2C732013D604AC"
+    },
+    {
+      "path": "romfs/splashes.json",
+      "size": 9194,
+      "sha256": "EC56D6A62F0F14728E12B6E2E7336BBE5D815C89C5CC10CB088552E74E6D3E72"
+    },
+    {
+      "path": "romfs/uniforms.bjson",
+      "size": 4674,
+      "sha256": "BCAC559175716FC6089A262189223C61FC44AF8ED58394155A21F9DD9BF7C032"
+    }
+  ]
+}

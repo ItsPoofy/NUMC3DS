@@ -1,0 +1,15 @@
+hostOption.setWorldSpawn	Definir Ponto de Geração no Mundo
+hostOption.teleport	Teletransportar
+hostOption.teleport.who	Quem
+hostOption.teleport.where	Onde
+hostOption.time	Hora
+hostOption.time.sunrise	Amanhecer
+hostOption.time.day	Dia
+hostOption.time.noon	Meio-dia
+hostOption.time.sunset	Pôr-do-sol
+hostOption.time.night	Noite
+hostOption.time.midnight	Meia-noite
+hostOption.weather	Clima
+hostOption.weather.clear	Limpo
+hostOption.weather.rain	Chuva
+hostOption.weather.thunderstorm	Trovoada

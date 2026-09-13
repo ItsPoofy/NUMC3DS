@@ -1,0 +1,15 @@
+hostOption.setWorldSpawn	世界のスポーン地点を設定する
+hostOption.teleport	テレポート
+hostOption.teleport.who	対象
+hostOption.teleport.where	場所
+hostOption.time	時間
+hostOption.time.sunrise	日の出
+hostOption.time.day	日中
+hostOption.time.noon	正午
+hostOption.time.sunset	日没
+hostOption.time.night	夜
+hostOption.time.midnight	午前 0 時
+hostOption.weather	天候
+hostOption.weather.clear	晴れ
+hostOption.weather.rain	雨
+hostOption.weather.thunderstorm	雷雨

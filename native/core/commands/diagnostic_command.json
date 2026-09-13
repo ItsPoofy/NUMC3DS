@@ -1,0 +1,27 @@
+{
+  "versions": [
+    {
+      "description": "Runs the NuMC3DS command conformance diagnostic",
+      "permission": "op",
+      "is_hidden": false,
+      "allows_indirect_exec": true,
+      "overloads": {
+        "default": {
+          "input": {
+            "parameters": []
+          }
+        },
+        "indexed": {
+          "input": {
+            "parameters": [
+              {
+                "name": "index",
+                "type": "int"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

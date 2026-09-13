@@ -1,0 +1,221 @@
+{
+    "terrain_opaque": {
+        "vertexShader": "shaders/renderchunk.vertex",
+        "fragmentShader": "shaders/renderchunk.fragment",
+
+        "defines": [ "LOW_PRECISION", "TEXEL_AA", "ATLAS_TEXTURE" ],
+
+        "samplerStates": [
+          {
+            "samplerIndex": 0,
+            "textureFilter" : "TexelAA"
+          },
+          {
+            "samplerIndex": 1,
+            "textureFilter": "Bilinear"
+          }
+        ]
+    },
+    
+    "terrain_alphatest": {
+        "defines": [ "LOW_PRECISION", "TEXEL_AA", "ATLAS_TEXTURE" ],
+        "states": ["Blending"],
+        "samplerStates": [
+          {
+            "samplerIndex": 0,
+            "textureFilter" : "TexelAA"
+          },
+          {
+            "samplerIndex": 1,
+            "textureFilter": "Bilinear"
+          }
+        ]
+    },
+
+    "terrain_opaque_seasons:terrain_opaque": {
+      "defines": [ "SEASONS" ],
+      "vertexShader": "shaders/renderchunk_seasons.vertex",
+      "fragmentShader": "8",
+      "samplerStates": [
+        {
+          "samplerIndex": 0,
+          "textureFilter" : "TexelAA"
+        },
+        {
+          "samplerIndex": 1,
+          "textureFilter": "Bilinear"
+        },
+        {
+          "samplerIndex": 2,
+          "textureFilter": "Point"
+        }
+      ]
+
+    },
+
+  "terrain_opaque_fog_no_cull:terrain_opaque_fog": {
+    "states":  [ "DisableCulling" ]
+  },
+
+    "terrain_blend:terrain_opaque": {
+        "defines": [ "BLEND" ],
+        "states": [
+          "Blending",
+		  "EnableAlphaToCoverage",
+		  "DisableCulling"
+        ],
+		"fragmentShader": "6"
+    },
+
+    "terrain_water:terrain_blend": {
+        "defines": [ "NEAR_WATER" ],
+        "vertexShader": "shaders/renderchunk_near_water.vertex",
+        "states": [
+          "PolygonOffset",
+          "Blending"
+        ],
+
+        // Fix z-fighting by offsetting water polygons by epsilon
+        "polygonOffsetLevel": 0.1
+    },
+
+    "terrain_blend_below:terrain_blend": {
+        "states": [ "InvertCulling", "Blending", "EnableStencilTest" ]
+    },
+
+    "terrain_water_below:terrain_water": {
+        "states": [ "InvertCulling", "Blending", "EnableStencilTest" ]
+    },
+
+    "terrain_doubleside:terrain_opaque": {
+        "states": [ "DisableCulling" ]
+    },
+
+    "terrain_alpha_single_side:terrain_alphatest": {
+      "states": [ "EnableAlphaTest" ],
+      "vertexShader": "shaders/renderchunk.vertex",
+      "fragmentShader": "6"
+    },
+
+    "terrain_alpha_seasons:terrain_alphatest": {
+      "defines": [ "SEASONS" ],
+      "states": [ "DisableCulling", "EnableAlphaToCoverage", "EnableAlphaTest" ],
+      "vertexShader": "shaders/renderchunk_seasons.vertex",
+      "fragmentShader": "8",
+      "samplerStates": [
+        {
+          "samplerIndex": 0,
+          "textureFilter" : "TexelAA"
+        },
+        {
+          "samplerIndex": 1,
+          "textureFilter": "Bilinear"
+        },
+        {
+          "samplerIndex": 2,
+          "textureFilter": "Point"
+        }
+      ]
+
+    },
+
+    "terrain_alpha:terrain_alpha_single_side": {
+        "states": [ "DisableCulling", "PolygonOffset" ],
+
+        // z-fighting fix
+        "polygonOffsetLevel" : 0.1
+    },
+
+  "terrain_opaque_fog:terrain_opaque": {
+  },
+
+  "terrain_water_fog:terrain_water": {
+    "defines": [ "BLEND", "NEAR_WATER" ],
+    "vertexShader": "shaders/renderchunk_near_water.vertex"
+  },
+
+    "terrain_water_below_fog:terrain_water_fog": {
+        "states": [ "InvertCulling", "Blending", "EnableStencilTest" ]
+    },
+
+  "terrain_blend_fog:terrain_blend": {
+    "defines": [ "BLEND" ]
+  },
+
+    "terrain_blend_below_fog:terrain_blend_fog": {
+        "states": [ "InvertCulling", "Blending", "EnableStencilTest" ]
+    },
+
+  "terrain_doubleside_fog:terrain_doubleside": {
+  },
+
+  "terrain_alpha_single_side_fog:terrain_alpha_single_side": {
+  },
+
+  "terrain_alpha_fog:terrain_alpha": {
+  },
+
+  "terrain_far:terrain_opaque": {
+    "defines": [
+      "LOW_PRECISION"
+    ]
+  },
+
+  "terrain_seasons_far:terrain_alpha_seasons": {
+    "defines": [
+      "LOW_PRECISION"
+    ]
+  },
+
+  "terrain_seasons_far_alpha:terrain_alpha_seasons": {
+    "defines": [
+      "LOW_PRECISION",
+      "SEASONS_FAR"
+    ]
+  },
+
+  "terrain_fading_in:terrain_far": {
+  },
+
+  "terrain_seasons_fading_in:terrain_seasons_far": {
+  },
+
+  "terrain_seasons_fading_in_alpha:terrain_seasons_far_alpha": {
+  },
+
+  "terrain_inside_block": {
+    "depthFunc": "LessEqual",
+
+    "vertexShader": "shaders/position_ccolor.vertex",
+    "fragmentShader": "1"
+  },
+  
+  "portal_base:terrain_opaque": {
+   "defines": [ "ENABLE_FOG", "END_PORTAL" ],
+   "states": ["DisableDepthWrite"],
+ 
+ 
+   // MERGE_FIXME2 - temporary until we have the end portal shader(s)
+   //"vertexShader": "shaders/position_ccolor.vertex",
+   //"vertexShader": "shaders/end_portal.vertex",
+   //"vrGeometryShader": "shaders/end_portal.geometry",
+   //"fragmentShader": "shaders/end_portal.fragment",
+ 
+   "blendSrc": "One",
+   "blendDst": "SourceAlpha",
+ 
+   "samplerStates": [
+     {
+       "samplerIndex": 0,
+       "textureFilter": "Bilinear",
+       "textureWrap": "Repeat"
+     },
+     {
+       "samplerIndex": 1,
+       "textureFilter": "Bilinear",
+       "textureWrap": "Repeat"
+     }
+   ]
+ }
+
+}

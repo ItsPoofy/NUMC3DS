@@ -1,0 +1,15 @@
+hostOption.setWorldSpawn	Set World Spawn
+hostOption.teleport	Teleport
+hostOption.teleport.who	Who
+hostOption.teleport.where	Where
+hostOption.time	Time
+hostOption.time.sunrise	Sunrise
+hostOption.time.day	Day
+hostOption.time.noon	Noon
+hostOption.time.sunset	Sunset
+hostOption.time.night	Night
+hostOption.time.midnight	Midnight
+hostOption.weather	Weather
+hostOption.weather.clear	Clear
+hostOption.weather.rain	Rain
+hostOption.weather.thunderstorm	Thunderstorm

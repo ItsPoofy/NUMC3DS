@@ -1,0 +1,15 @@
+hostOption.setWorldSpawn	Définir le point d'apparition
+hostOption.teleport	Se téléporter
+hostOption.teleport.who	Qui
+hostOption.teleport.where	Où
+hostOption.time	Heure
+hostOption.time.sunrise	Aube
+hostOption.time.day	Jour
+hostOption.time.noon	Midi
+hostOption.time.sunset	Coucher du soleil
+hostOption.time.night	Nuit
+hostOption.time.midnight	Minuit
+hostOption.weather	Météo
+hostOption.weather.clear	Dégagée
+hostOption.weather.rain	Pluie
+hostOption.weather.thunderstorm	Orage

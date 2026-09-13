@@ -1,0 +1,15 @@
+hostOption.setWorldSpawn	Definir Local para Renascer
+hostOption.teleport	Teleportar
+hostOption.teleport.who	Quem
+hostOption.teleport.where	Onde
+hostOption.time	Hora
+hostOption.time.sunrise	Nascer do Sol
+hostOption.time.day	Dia
+hostOption.time.noon	Meio-dia
+hostOption.time.sunset	Pôr do Sol
+hostOption.time.night	Noite
+hostOption.time.midnight	Meia-noite
+hostOption.weather	Clima
+hostOption.weather.clear	Limpo
+hostOption.weather.rain	Chuva
+hostOption.weather.thunderstorm	Tempestade

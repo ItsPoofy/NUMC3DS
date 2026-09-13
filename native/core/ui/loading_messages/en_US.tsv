@@ -1,0 +1,82 @@
+tips.game.skinpacks	You can change the look of your character with a Skin Pack from the Store. Select 'Store' on the Main Menu to see what's available.
+tips.game.1	Iron golems will fight for you!
+tips.game.2	Alter the brightness setting to make the game brighter or darker.
+tips.game.3	If you set the game difficulty to Peaceful, your health will automatically regenerate, and no monsters will come out at night!
+tips.game.4	Feed a bone to a wolf to tame it. You can then make it sit or follow you.
+tips.game.5	Wearing a pumpkin on your head will keep Endermen from attacking you.
+tips.game.6	Sleeping in a bed at night will fast forward the game to dawn, but all players in a multiplayer game need to sleep in beds at the same time.
+tips.game.7	Harvest food from pigs, cows, sheep, rabbit, and chickens. Cook and eat it to regain health!
+tips.game.8	Harvest leather from cows, and use it to make armor and books.
+tips.game.9	If you have an empty bucket, you can fill it with water, lava, or milk from a cow!
+tips.game.10	Use a hoe to prepare areas of ground for planting.
+tips.game.11	Spiders won't attack you during the day - unless you attack them.
+tips.game.12	Feeding an animal will keep it from despawning. Build a pen to keep your animals safe.
+tips.game.13	Eating cooked food reduces hunger better than eating raw food.
+tips.game.14	Craft torches to light up dark areas. Monsters lurk in the darkness!
+tips.game.15	Get to destinations faster with a minecart and rail!
+tips.game.16	Plant some saplings and they'll grow into trees.
+tips.game.17	Pigmen won't attack you - unless you attack them.
+tips.game.18	You can change your game spawn point, and skip to dawn by sleeping in a bed.
+tips.game.19	Hit those fireballs back at the Ghast!
+tips.game.20	Building a portal will allow you to travel to another dimension - The Nether.
+tips.game.22	Use the right tool for the job! Digging dirt with a shovel is much faster than using a pickaxe!
+tips.game.23	If you can't find any coal for your torches, you can always make charcoal from trees in a furnace.
+tips.game.24	Digging straight down or straight up is not a great idea.
+tips.game.25	Bonemeal (crafted from a Skeleton bone) can be used as a fertilizer and can make things grow instantly!
+tips.game.26	Creepers explode when they get close to you!
+tips.game.27	Obsidian is created when water hits a lava source block.
+tips.game.28	If the source block for water or lava is removed, it will stop the flow completely.
+tips.game.29	Cobblestone is resistant to Ghast fireballs, making it useful for guarding portals.
+tips.game.30	Blocks that can be used as a light source will melt snow and ice. This includes torches, glowstones, and Jack-O-Lanterns.
+tips.game.31	Take caution when building structures made of wool out in the open, as lightning from thunderstorms can set wool on fire.
+tips.game.32	A single bucket of lava can be used in a furnace to smelt 100 blocks.
+tips.game.33	The instrument played by a note block depends on the material beneath it.
+tips.game.34	Zombies and Skeletons can survive daylight if they are in water or wearing a helmet.
+tips.game.35	Attacking a wolf will cause any wolves in the immediate vicinity to turn hostile and attack you. This trait is also shared by Zombie Pigmen.
+tips.game.36	Wolves and Iron Golems won't attack Creepers.
+tips.game.37	Chickens lay an egg every 5 to 10 minutes.
+tips.game.38	Obsidian can only be mined with a diamond pickaxe.
+tips.game.39	Creepers are the easiest obtainable source of gunpowder.
+tips.game.41	Placing two chests side by side will make one large chest.
+tips.game.42	Tame wolves show their health with the position of their tail. Feed them meat to heal them.
+tips.game.43	Different colored dyes can be made from a variety of materials, cook cactus in a furnace to get green dye!
+tips.game.44	On mobile devices, you can download the "Music by Minecraft" pack from the Music Category in the Minecraft Store.
+tips.game.45	Some animals will follow you if you have wheat in your hand.
+tips.trivia.1	Music by C418!
+tips.trivia.2	There will be an update to this game eventually!
+tips.trivia.3	Mojang has more awards than staff!
+tips.trivia.4	Some famous people play Minecraft!
+tips.trivia.5	Do not look directly at the bugs.
+tips.trivia.6	Creepers were born from a coding bug.
+tips.trivia.7	Is it a chicken or is it a duck?
+tips.trivia.8	Were you at MINECON?
+tips.trivia.9	No-one at Mojang has ever seen Junkboy's face.
+tips.trivia.10	Did you know there's a Minecraft Wiki?
+tips.trivia.11	MINECON 2011 was in Las Vegas, Nevada, USA!
+tips.trivia.12	MINECON 2012 was in Paris, France!
+tips.trivia.13	MINECON 2013 was in Orlando, Florida, USA!
+tips.trivia.14	No-one can remember where MINECON 2014 was held.
+tips.trivia.15	MINECON 2015 was in London, UK!
+tips.trivia.16	MINECON 2016 was in Anaheim, California, USA!
+tips.trivia.17	Always assume rumors are false, rather than assuming they're true!
+tips.trivia.18	The first version of Minecraft was created in just 6 days!
+tips.trivia.19	The Enderman language is actually English in reverse.
+tips.trivia.20	The original name for Minecraft was Cave Game.
+tips.trivia.21	Pigs that are struck by lightning become Zombie Pigmen!
+tips.trivia.22	Endermen hate bath time! 
+tips.trivia.23	Sometimes iron golems give flowers to the villager children!
+tips.trivia.24	A Spider Jockey is the rare appearance of a spider being ridden by a skeleton!
+tips.trivia.25	Traveling one block in the Nether is equal to traveling eight blocks in the overworld.
+numc3ds.transfer.import	Importing worlds
+numc3ds.transfer.export	Exporting world
+numc3ds.transfer.export_action	Export World
+numc3ds.transfer.copying	Copying world
+numc3ds.transfer.verifying	Verifying world
+numc3ds.transfer.replacing	Replacing export
+numc3ds.transfer.invalid	Invalid world skipped
+numc3ds.transfer.capacity	Not enough storage space
+numc3ds.transfer.cancelled	Transfer cancelled
+numc3ds.transfer.cleanup	Cleanup needed on SD card
+numc3ds.transfer.complete	Transfer complete
+numc3ds.transfer.replace	Replace Export
+numc3ds.transfer.cancel	Cancel

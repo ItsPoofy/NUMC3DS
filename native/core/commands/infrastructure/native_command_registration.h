@@ -1,0 +1,6 @@
+#ifndef NUMC3DS_NATIVE_COMMAND_REGISTRATION_H
+#define NUMC3DS_NATIVE_COMMAND_REGISTRATION_H
+
+int native_command_registration_register(void);
+
+#endif

@@ -1,0 +1,24 @@
+#ifndef NUMC3DS_KEYBOARD_INPUT_H
+#define NUMC3DS_KEYBOARD_INPUT_H
+
+#include "../rt.h"
+
+enum {
+    KEYBOARD_PAD_A=0x0001,
+    KEYBOARD_PAD_B=0x0002,
+    KEYBOARD_PAD_SELECT=0x0004,
+    KEYBOARD_PAD_START=0x0008,
+    KEYBOARD_PAD_RIGHT=0x0010,
+    KEYBOARD_PAD_LEFT=0x0020,
+    KEYBOARD_PAD_UP=0x0040,
+    KEYBOARD_PAD_DOWN=0x0080,
+    KEYBOARD_PAD_R=0x0100,
+    KEYBOARD_PAD_L=0x0200,
+    KEYBOARD_PAD_X=0x0400,
+    KEYBOARD_PAD_Y=0x0800
+};
+
+int keyboard_input_install_hook(void);
+int keyboard_input_sample(u32 *hold,u32 *trigger);
+
+#endif

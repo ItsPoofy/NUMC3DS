@@ -1,0 +1,17 @@
+/build/
+/inputs/
+/tools/
+/local/
+/re/
+/scratch/
+/work/
+/logs/
+/.cursor/
+/.mcp.json
+__pycache__/
+*.pyc
+*.elf
+*.map
+*.bin
+!release/**/*.bin
+

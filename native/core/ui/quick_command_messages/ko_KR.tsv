@@ -1,0 +1,15 @@
+hostOption.setWorldSpawn	월드 생성 설정
+hostOption.teleport	순간이동
+hostOption.teleport.who	대상 플레이어
+hostOption.teleport.where	대상 위치
+hostOption.time	시간
+hostOption.time.sunrise	일출
+hostOption.time.day	낮
+hostOption.time.noon	정오
+hostOption.time.sunset	일몰
+hostOption.time.night	밤
+hostOption.time.midnight	자정
+hostOption.weather	날씨
+hostOption.weather.clear	맑은
+hostOption.weather.rain	비
+hostOption.weather.thunderstorm	천둥번개

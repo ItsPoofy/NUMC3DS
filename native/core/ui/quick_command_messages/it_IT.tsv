@@ -1,0 +1,15 @@
+hostOption.setWorldSpawn	Imposta punto generazione
+hostOption.teleport	Teletrasporto
+hostOption.teleport.who	Chi
+hostOption.teleport.where	Dove
+hostOption.time	Ora
+hostOption.time.sunrise	Alba
+hostOption.time.day	Giorno
+hostOption.time.noon	Mezzogiorno
+hostOption.time.sunset	Tramonto
+hostOption.time.night	Notte
+hostOption.time.midnight	Mezzanotte
+hostOption.weather	Meteo
+hostOption.weather.clear	Sereno
+hostOption.weather.rain	Pioggia
+hostOption.weather.thunderstorm	Temporale

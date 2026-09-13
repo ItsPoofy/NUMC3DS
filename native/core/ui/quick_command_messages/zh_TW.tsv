@@ -1,0 +1,15 @@
+hostOption.setWorldSpawn	設定世界起始點
+hostOption.teleport	傳送
+hostOption.teleport.who	對象
+hostOption.teleport.where	位置
+hostOption.time	時間
+hostOption.time.sunrise	清晨
+hostOption.time.day	白晝
+hostOption.time.noon	中午
+hostOption.time.sunset	傍晚
+hostOption.time.night	夜晚
+hostOption.time.midnight	午夜
+hostOption.weather	天氣
+hostOption.weather.clear	晴天
+hostOption.weather.rain	雨天
+hostOption.weather.thunderstorm	雷雨

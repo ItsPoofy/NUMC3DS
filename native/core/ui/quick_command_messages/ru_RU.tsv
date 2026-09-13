@@ -1,0 +1,15 @@
+hostOption.setWorldSpawn	Задать место появления в мире
+hostOption.teleport	Перенести
+hostOption.teleport.who	Кого
+hostOption.teleport.where	Куда
+hostOption.time	Время
+hostOption.time.sunrise	Восход
+hostOption.time.day	День
+hostOption.time.noon	Полдень
+hostOption.time.sunset	Закат
+hostOption.time.night	Ночь
+hostOption.time.midnight	Полночь
+hostOption.weather	Погода
+hostOption.weather.clear	Ясно
+hostOption.weather.rain	Дождь
+hostOption.weather.thunderstorm	Гроза

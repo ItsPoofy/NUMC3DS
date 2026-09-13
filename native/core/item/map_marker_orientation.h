@@ -1,0 +1,4 @@
+#ifndef NUMC3DS_MAP_MARKER_ORIENTATION_H
+#define NUMC3DS_MAP_MARKER_ORIENTATION_H
+int map_marker_orientation_install(void);
+#endif

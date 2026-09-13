@@ -1,0 +1,15 @@
+hostOption.setWorldSpawn	Wereldspawnpunt instellen
+hostOption.teleport	Teleporteren
+hostOption.teleport.who	Wie
+hostOption.teleport.where	Waar
+hostOption.time	Tijd
+hostOption.time.sunrise	Zonsopkomst
+hostOption.time.day	Dag
+hostOption.time.noon	Middag
+hostOption.time.sunset	Zonsondergang
+hostOption.time.night	Nacht
+hostOption.time.midnight	Middernacht
+hostOption.weather	Weer
+hostOption.weather.clear	Helder
+hostOption.weather.rain	Regen
+hostOption.weather.thunderstorm	Onweersbui
